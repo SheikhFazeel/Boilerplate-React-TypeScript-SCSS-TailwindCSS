@@ -26,8 +26,6 @@ All you have to do is create your app using [create-react-app](https://github.co
 
 Due to its awesome renderer system, there are many [React Renderor](https://github.com/chentsulin/awesome-react-renderer). So React can be not used only Web, for example, used by [React Native](https://reactnative.dev/).
 
-Let's dive into React and Vite can use with React.
-
 ## TypeScript
 
 [TypeScript](https://github.com/microsoft/TypeScript) is a superset of JavaScript. It is just one of NPM library, but it provides an original compiler.
