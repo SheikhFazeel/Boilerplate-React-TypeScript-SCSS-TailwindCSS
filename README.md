@@ -45,7 +45,7 @@ When you decide to use Tailwind, you only write utility-first CSS classes, you d
 
 
 
-## Available Scripts
+## Get Started
 
 In the project directory, you can run:
 
