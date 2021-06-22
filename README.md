@@ -1,6 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Create React + TypeScript + SCSS + TailwindCSS App
+React, typescript, scss, tailwind css Starter
+Boilerplate for Tailwind CSS Configured without ejecting from [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -39,8 +39,27 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[React](https://github.com/facebook/react) is a JavaScript library for building user interfaces.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Due to its awesome renderer system, there are many [React Renderor](https://github.com/chentsulin/awesome-react-renderer). So React can be not used only Web, for example, used by [React Native](https://reactnative.dev/).
+
+Let's dive into React and Vite can use with React.
+
+## TypeScript
+
+[TypeScript](https://github.com/microsoft/TypeScript) is a superset of JavaScript. It is just one of NPM library, but it provides an original compiler.
+
+When you use TypeScript with React, you can write JSX with TypeScript, called TSX. Then you can develop views written by  **Type-Safe** template.
+
+## Tailwind CSS
+
+[Tailwind CSS](https://tailwindcss.com/) is modern utility-first CSS framework. It provides many CSS rules, but these are purged when production builds. So developers do not worry about CSS asset size for performance optimization.
+
+In VSCode, I recommend to use [intellisense extension](https://tailwindcss.com/docs/intellisense).
+
+Frequently, React developers are worried about how to write CSS in TSX(JSX) template. You must choose from CSS Modules, [styled-components](https://styled-components.com/), [linaria](https://github.com/callstack/linaria), and so on.
+Additionally, CSS architecture is difficult about scoping, e.g. BEM, FLOCSS.
+
+When you decide to use Tailwind, you only write utility-first CSS classes, you don't have to worry about them!
